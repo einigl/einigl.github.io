@@ -8,10 +8,6 @@ I am currently a PHD student at [IRAM](https://iram-institute.org/) and at [GIPS
 
 I'm specialized in signal processing and data science and I apply this knowledge in an interdisciplinary work with astrophysicists in order to better understand and model the interstellar medium, particularly the molecular cloud of ORION B.
 
-Here's what I do...
-## Research interests
-
-Few sentences and/or keywords.
 
 <div align="middle" style="margin-top: 50px">
   <a href="https://iram-institute.org/"><img class='logo' alt="iram_logo" src="assets/images/iram_logo.jpg" align="bottom" style="height:100px"></a>
