@@ -4,16 +4,14 @@ source "https://rubygems.org"
 # When you want to use a different version, change it below, save the
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
 #
-#     bundle exec jekyll serve
+#     bundle exec jekyll serve --livereload
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 
-gem "github-pages", group: :jekyll_plugins
-
 # To upgrade, run `bundle update`.
 
-gem "jekyll"
+gem "github-pages", group: :jekyll_plugins
 gem "minimal-mistakes-jekyll"
 
 # The following plugins are automatically loaded by the theme-gem:
@@ -24,6 +22,6 @@ gem "minimal-mistakes-jekyll"
 #   gem "jekyll-include-cache"
 #
 # If you have any other plugins, put them here!
-# Cf. https://jekyllrb.com/docs/plugins/installation/
 group :jekyll_plugins do
+    gem "jekyll-scholar"
 end
