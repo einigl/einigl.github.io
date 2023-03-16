@@ -101,7 +101,7 @@ author:
   avatar: "/assets/images/bio-photo.png"
   bio: "2nd year PHD student<br>in astrophysics<br>and data science"
   location: "Grenoble, France"
-  email: "einig@iram.fr"
+  email: "einig[at]iram.fr"
   github: "einigl"
   webpage: "https://einigl.github.io"
   # Academic profiles
@@ -115,7 +115,7 @@ author:
     acmdl:
     ads:
     africarxiv:
-    arxiv: "https://arxiv.org/a/<orcid-id | arxiv-id>"
+    arxiv:
     biorxiv:
     ceur:
     ciencia-vitae:

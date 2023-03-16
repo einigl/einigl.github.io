@@ -11,3 +11,6 @@ Gemfile.lock
 .jekyll-metadata
 .sass-cache
 _asset_bundler_cache
+
+# Notes
+notes.md

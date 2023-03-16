@@ -6,6 +6,8 @@ author_profile: true
 title: "Resume"
 ---
 
+<a href="../assets/files/resume_fr.pdf"><img align="left" class='logo' alt="pdf_logo" src="../assets/images/pdf_logo.png" style="height:70px; padding-left:10px"></a><br/><br/>
+
 ## Education
 
 * PHD in astrophysics of the interstellar medium<br>
