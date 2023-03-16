@@ -463,7 +463,8 @@
 <p>$ bundle exec jekyll serve –livereload</p>
 
 <h3 id="to-push-only-the-_site-subdirectory-to-the-banch-gh-pages">To push only the <code class="language-plaintext highlighter-rouge">_site</code> subdirectory to the banch <code class="language-plaintext highlighter-rouge">gh-pages</code>:</h3>
-<p>$ git push origin <code class="language-plaintext highlighter-rouge">git subtree split --prefix _site master</code>:gh-pages –force</p>
+<p>$ git commit -m “Push to gh-pages”
+$ git push origin <code class="language-plaintext highlighter-rouge">git subtree split --prefix _site master</code>:gh-pages –force</p>
 
         
       </section>
