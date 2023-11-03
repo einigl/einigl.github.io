@@ -189,7 +189,9 @@ hr {
 
 /* lists */
 
-ul li,
+ul li{
+  list-style-type: square;
+}
 ol li {
   margin-bottom: 0.5em;
 }
@@ -307,7 +309,7 @@ nav {
   }
 
   li {
-    list-style: none;
+    list-style: none
   }
 
   a {

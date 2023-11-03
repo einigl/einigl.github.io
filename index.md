@@ -6,7 +6,7 @@ classes: wide
 
 Welcome to my personnal webpage!
 
-I am currently a PHD student at [IRAM](https://iram-institute.org/) and at [GIPSA-Lab](https://www.gipsa-lab.grenoble-inp.fr/) in the [SigmaPhy](https://www.gipsa-lab.grenoble-inp.fr/equipe/sigmaphy) team in Grenoble.
+I am currently a PHD student at <a href="https://iram-institute.org/" style="text-decoration: none">IRAM</a> and at <a href="https://www.gipsa-lab.grenoble-inp.fr/" style="text-decoration: none">GIPSA-lab</a> in the <a href="https://www.gipsa-lab.grenoble-inp.fr/equipe/sigmaphy" style="text-decoration: none">SigmaPhy</a> team in Grenoble.
 
 I'm specialized in signal processing and data science. I apply this knowledge in an interdisciplinary work with astrophysicists in order to better understand and model the interstellar medium, particularly the Orion molecular cloud complex.
 
@@ -20,4 +20,7 @@ I'm specialized in signal processing and data science. I apply this knowledge in
 
 ## Research interests
 
-Physical modeling, Machine learning, Signal processing, Statistics
+* Physical modeling
+* Machine learning
+* Signal processing
+* Applied statistics

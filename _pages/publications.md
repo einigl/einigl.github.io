@@ -3,97 +3,56 @@ permalink: "/publications/"
 layout: single
 # classes: wide
 author_profile: true
-title: ""
+title: "Publications"
 toc: true
-toc_label: "Publications"
+toc_label: "Categories"
 toc_sticky: true
 ---
 
-<!-- Go to _config.yml file and fill the corresponding fields author.academic_profiles.xxxx-->
-{% if site.author.academic_profiles.google-scholar %}
-  <a href="{{ site.author.academic_profiles.google-scholar }}">
-    <i class="ai ai-google-scholar" aria-hidden="true"></i>Scholar
-  </a>
-{% endif %}
-{% if site.author.academic_profiles.orcid %}
-  <a href="{{ site.author.academic_profiles.orcid }}">
-    <i class="ai ai-orcid" aria-hidden="true"></i>Orcid
-  </a>
-{% endif %}
-{% if site.author.academic_profiles.hal %}
-  <a href="{{ site.author.academic_profiles.hal }}">
-    <i class="ai ai-hal" aria-hidden="true"></i>HAL
-  </a>
-{% endif %}
-{% if site.author.academic_profiles.arxiv %}
-  <a href="{{ site.author.academic_profiles.arxiv }}">
-    <i class="ai ai-arxiv" aria-hidden="true"></i>Arxiv
-  </a>
-{% endif %}
+## Journal papers
 
-<!-- See also https://github.com/inukshuk/jekyll-scholar to customize your references -->
+* Neural network-based emulation of interstellar medium models &nbsp; <a href="https://www.aanda.org/articles/aa/abs/2023/10/aa47074-23/aa47074-23.html"><i class="fa fa-link" title="Paper" style="color:lightskyblue"></i></a>
+<br/>
+<span style="color:white"><font size="4"><em> P. Palud*, L. Einig*, J. Chanussot, J. Pety, et al.</em></font></span>
+<br/>
+<span style="color:lightskyblue"><font size="4"><em>Astronomy & Astrophysics, 2023</em></font></span>
+<br/> 
+
+* Deep learning denoising by dimension reduction: Application to the ORION-B line cubes &nbsp; <a href="https://www.aanda.org/articles/aa/abs/2023/09/aa46064-23/aa46064-23.html"><i class="fa fa-link" title="Paper" style="color:lightskyblue"></i></a>
+<br/>
+<span style="color:white"><font size="4"><em>L. Einig, J. Palud, A. Roueff, P. Vandame, et al.</em></font></span>
+<br/>
+<span style="color:lightskyblue"><font size="4"><em>Astronomy & Astrophysics, 2023</em></font></span>
 
 
+[## International conferences]: #
 
-<!-- Preprints -->
-{% capture counter_preprints %}{% bibliography_count --query @unpublished %}{% endcapture %}
-{% if counter_preprints != "0" %}
 
-## Preprints
+## National conferences
 
-  {% bibliography --query @unpublished %}
-{% endif %}
+* Réduction d'un modèle astrophysique par réseaux de neurones
+&nbsp; <a href="https://gretsi.fr/data/colloque/pdf/2023_einig1247.pdf"><i class="fa fa-link" title="Paper" style="color:lightskyblue"></i></a>
+&nbsp; <a href="../assets/files/posters/emulation-2023.pdf"><i class="fa fa-map" title="Poster" style="color:lightskyblue"></i></a>
+<br/>
+<span style="color:white"><font size="4"><em>L. Einig, P. Palud, J. Chanussot, J. Pety, et al.</em></font></span>
+<br/>
+<span style="color:lightskyblue"><font size="4"><em>GRETSI'23, 2023</em></font></span>
+<br/>
 
-<!-- Journal articles-->
-{% capture counter_book %}{% bibliography_count --query @book %}{% endcapture %}
-{% if counter_book != "0" %}
+## Workshop and conference abstracts
 
-## Books
+* Efficient and fast deep learning approaches to denoise large radioastronomy line cubes ​and to emulate sophisticated astrophysical models
+&nbsp; <a href="../assets/files/abstracts/IAP-2023.pdf"><i class="fa fa-file-pdf" style="color:lightskyblue" title="Abstract"></i></a>
+<br/>
+<span style="color:white"><font size="4"><em>L. Einig, P. Palud, J. Chanussot, J. Pety, et al.</em></font></span>
+<br/>
+<span style="color:lightskyblue"><font size="4"><em>ML-IAP/CCA, 2023</em></font></span>
+<br/>
 
-  {% bibliography --query @book %}
-{% endif %}
-
-<!-- Journal articles-->
-{% capture counter_article %}{% bibliography_count --query @article %}{% endcapture %}
-{% if counter_article != "0" %}
-
-## Journal articles
-
-  {% bibliography --query @article %}
-{% endif %}
-
-<!-- Conference papers -->
-{% capture counter_inproceedings %}{% bibliography_count --query @inproceedings %}{% endcapture %}
-{% if counter_inproceedings != "0" %}
-
-## Conference papers
-
-  {% bibliography --query @inproceedings %}
-{% endif %}
-
-<!-- Workshop papers -->
-{% capture counter_workshop %}{% bibliography_count --query @misc[keywords=workshop] %}{% endcapture %}
-{% if counter_workshop != "0" %}
-
-## Workshop papers
-
-  {% bibliography --query @misc[keywords=workshop] %}
-{% endif %}
-
-<!-- Thesis -->
-{% capture counter_thesis %}{% bibliography_count --query @thesis %}{% endcapture %}
-{% if counter_thesis != "0" %}
-
-## Thesis
-
-  {% bibliography --query @thesis %}
-{% endif %}
-
-<!-- Popularization -->
-{% capture counter_popularization %}{% bibliography_count --query @misc[keywords=popularization] %}{% endcapture %}
-{% if counter_popularization != "0" %}
-
-## Popularization
-
-  {% bibliography --query @misc[keywords=popularization] %}
-{% endif %}
+* Deep learning denoising by dimension reduction: Application to molecular line cubes
+&nbsp; <a href="../assets/files/abstracts/OS-2023.pdf"><i class="fa fa-file-pdf" style="color:lightskyblue" title="Abstract"></i></a>
+&nbsp; <a href="../assets/files/posters/denoising-2023.pdf"><i class="fa fa-map" style="color:lightskyblue" title="Poster"></i></a>
+<br/>
+<span style="color:white"><font size="4"><em>L. Einig, J. Pety, J. Chanussot, M. Gerin, et al.</em></font></span>
+<br/>
+<span style="color:lightskyblue"><font size="4"><em>Olympian Symposium, 2023</em></font></span>
