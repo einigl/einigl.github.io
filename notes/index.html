@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>To update after modifying the _config.yml: - Lucas Einig</title>
+<!-- begin _includes/seo.html --><title>Installation procedure - Lucas Einig</title>
 <meta name="description" content="Description">
 
 
@@ -20,7 +20,7 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Lucas Einig">
-<meta property="og:title" content="To update after modifying the _config.yml:">
+<meta property="og:title" content="Installation procedure">
 <meta property="og:url" content="http://localhost:4000/notes/">
 
 
@@ -182,7 +182,7 @@
     
     
       <div class="author__bio" itemprop="description">
-        <p>2nd year PHD student<br />in astrophysics<br />and data science</p>
+        <p>3rd year PHD student<br />in astrophysics and<br />data science</p>
 
       </div>
     
@@ -438,7 +438,7 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="To update after modifying the _config.yml:">
+    <meta itemprop="headline" content="Installation procedure">
     
     
     
@@ -446,7 +446,7 @@
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">To update after modifying the _config.yml:
+          <h1 id="page-title" class="page__title" itemprop="headline">Installation procedure
 </h1>
           
 
@@ -456,15 +456,30 @@
 
       <section class="page__content" itemprop="text">
         
-        <h3 id="to-update-after-modifying-the-_configyml">To update after modifying the <code class="language-plaintext highlighter-rouge">_config.yml</code>:</h3>
-<p>$ bundle update</p>
+        <h3 id="installation-procedure">Installation procedure</h3>
+
+<p>https://jekyllrb.com/docs/installation/ubuntu/</p>
+
+<hr />
+
+<h3 id="to-update-after-modifying-the-_configyml">To update after modifying the <code class="language-plaintext highlighter-rouge">_config.yml</code>:</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ bundle update
+</code></pre></div></div>
 
 <h3 id="to-generate-locally-the-webpage">To generate locally the webpage:</h3>
-<p>$ bundle exec jekyll serve –livereload</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ bundle exec jekyll serve --livereload
+</code></pre></div></div>
 
 <h3 id="to-push-only-the-_site-subdirectory-to-the-banch-gh-pages">To push only the <code class="language-plaintext highlighter-rouge">_site</code> subdirectory to the banch <code class="language-plaintext highlighter-rouge">gh-pages</code>:</h3>
-<p>$ git commit -m “Push to gh-pages”
-$ git push origin <code class="language-plaintext highlighter-rouge">git subtree split --prefix _site master</code>:gh-pages –force</p>
+
+<p>Before doing this, you should push your changes to <code class="language-plaintext highlighter-rouge">main</code>.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git branch gh-pages
+$ checkout gh-pages
+$ bundle exec jekyll serve --livereload
+$ git commit -m "Push to gh-pages"
+$ git subtree push --prefix _site origin gh-pages
+</code></pre></div></div>
+<p>You may have to go to <code class="language-plaintext highlighter-rouge">Settings/Pages</code> on the GitHub webpage and selection <code class="language-plaintext highlighter-rouge">Source: Deploy from a branch</code> and <code class="language-plaintext highlighter-rouge">Branch: gh-pages /root</code>.</p>
 
         
       </section>
