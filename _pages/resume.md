@@ -7,23 +7,23 @@ title: "Resume"
 ---
 
 <p float="left">
-    <a href="../assets/files/resumes/French.pdf"><img align="left" class='logo' alt="pdf-icon" src="../assets/icons/pdf-icon.png" style="height:70px; padding-left:0px" title="Français"></a>
-    <a href="../assets/files/resumes/English.pdf"><img align="left" class='logo' alt="pdf-icon" src="../assets/icons/pdf-icon.png" style="height:70px; padding-left:20px" title="English"></a>
+    <a href="../assets/files/resumes/French.pdf"><img align="left" class='logo' alt="pdf-icon-fr" src="../assets/icons/pdf-icon-fr.png" style="height:70px; padding-left:0px" title="Français"></a>
+    <a href="../assets/files/resumes/English.pdf"><img align="left" class='logo' alt="pdf-icon-en" src="../assets/icons/pdf-icon-en.png" style="height:70px; padding-left:20px" title="English"></a>
 </p><br/>
 
 ## Education
 
-* PHD in astrophysics of the interstellar medium &nbsp; <a href="https://www.theses.fr/s304324"><i class="fa fa-link" title="Thesis" style="color:lightskyblue"></i></a>
+* PhD in astrophysics of the interstellar medium &nbsp; <a href="https://www.theses.fr/s304324"><i class="fa fa-link" title="Thesis" style="color:lightskyblue"></i></a>
 <br>
-<span style="color:lightskyblue"><font size="4">Grenoble Alpes University, IRAM & GIPSA-lab, Grenoble (France), 2021 - Today</font></span>
+<span style="color:lightskyblue"><font size="4">Grenoble Alpes University, IRAM & GIPSA-lab, Grenoble (France), 2021 - 2024</font></span>
 <br>
-<span><font size="4"><em>Creation of computational graphs applied to the study of star birth conditions. Development of learning algorithms for the analysis of the interstellar medium.</em></font></span>
+<span><font size="4"><em>Relationships between observables and astrophysical conditions: a statistical and learning approach to the Orion B giant molecular cloud.</em></font></span>
 
 * Master Signal and ImaGe processing Methods and Applications
 <br>
 <span style="color:lightskyblue"><font size="4">Grenoble Alpes University, Grenoble (France), 2019 - 2021</font></span>
 <br>
-<span><font size="4"><em>Research-oriented training. Scientific writing, Bayesian inference, optimization, model inversion and modeling of physical phenomena.</em></font></span>
+<span><font size="4"><em>Research-oriented training. Scientific writing, Bayesian inference, optimization non convexe, inverse problems, and modeling of physical phenomena.</em></font></span>
 
 * Engineering degree in signal processing and data analysis
 <br>
@@ -37,13 +37,21 @@ title: "Resume"
 
 ## Work history
 
+* Part-time teacher
+<br>
+<span style="color:lightskyblue"><font size="4">Grenoble INP - ENSE<sup>3</sup>, Grenoble (France), 2023-2024</font></span>
+<br>
+<span><font size="4"><em>
+Introduction to machine learning, digital signal processing course, project “making a keyboard from a board”, sensors and information processing practical sessions.
+</em></font></span>
+
 * Final year internship at GIPSA-lab
 <br>
 <span style="color:lightskyblue"><font size="4">Grenoble Image Parole Signal Automatique, Grenoble (France), 2021</font></span>
 <br>
 <span><font size="4"><em>Application of statistical learning methods on astrophysical hyperspectral data. Unsupervised denoising and information extraction from spectral lines of variable signal-to-noise ratio.</em></font></span>
 
-* Tutoring the IUT2 of Grenoble in mathematics and physics
+* Tutoring at the IUT2 of Grenoble in mathematics and physics
 <br>
 <span style="color:lightskyblue"><font size="4">Grenoble Alpes University, Grenoble (France), 2021</font></span>
 

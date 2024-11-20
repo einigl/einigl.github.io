@@ -99,9 +99,9 @@ analytics:
 author:
   name: "Lucas Einig"
   avatar: "/assets/images/bio-photo.png"
-  bio: "3rd year PHD student<br>in astrophysics and<br>data science"
-  location: "Grenoble, France"
-  email: "einig[at]iram.fr"
+  bio: "PhD in astrophysics<br>and data science"
+  location: "Lyon, France"
+  email: "lucas[dot]einig99[at]gmail[dot]com"
   github: "einigl"
   webpage: "https://einigl.github.io"
   # Academic profiles
@@ -133,7 +133,7 @@ author:
     elsevier:
     figshare:
     google-scholar: "https://scholar.google.fr/citations?user=3dguP0QAAAAJ"
-    hal:
+    hal: "lucas-einig"
     hypothesis:
     ideas-repec:
     ieee:
