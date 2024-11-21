@@ -182,7 +182,7 @@
     
     
       <div class="author__bio" itemprop="description">
-        <p>3rd year PHD student<br />in astrophysics and<br />data science</p>
+        <p>PhD in astrophysics<br />and data science</p>
 
       </div>
     
@@ -193,7 +193,7 @@
     <ul class="author__urls social-icons">
       
         <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
-          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Grenoble, France</span>
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Lyon, France</span>
         </li>
       
 
@@ -217,8 +217,8 @@
 
       
         <li>
-          <a href="mailto:einig[at]iram.fr">
-            <meta itemprop="email" content="einig[at]iram.fr" />
+          <a href="mailto:lucas[dot]einig99[at]gmail[dot]com">
+            <meta itemprop="email" content="lucas[dot]einig99[at]gmail[dot]com" />
             <i class="fas fa-fw fa-envelope" aria-hidden="true"></i><span class="label">Email</span>
           </a>
         </li>
@@ -337,6 +337,12 @@
 
 
 <!-- 
+  <li>
+    <a href="lucas-einig" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="ai ai-hal" aria-hidden="true"></i><span class="label">Hal</span>
+    </a>
+  </li>
+
 
  -->
 
@@ -479,7 +485,31 @@ $ bundle exec jekyll serve --livereload
 $ git commit -m "Push to gh-pages"
 $ git subtree push --prefix _site origin gh-pages
 </code></pre></div></div>
+<p>After doing this, consider deleting branch <code class="language-plaintext highlighter-rouge">gh-pages</code> and recreating it next time.</p>
+
 <p>You may have to go to <code class="language-plaintext highlighter-rouge">Settings/Pages</code> on the GitHub webpage and selection <code class="language-plaintext highlighter-rouge">Source: Deploy from a branch</code> and <code class="language-plaintext highlighter-rouge">Branch: gh-pages /root</code>.</p>
+
+<p><strong>Note:</strong> Une manière plus simple de faire est de s’assurer d’abord de charger la version courrante en local (toutes les branches):</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git fetch --all
+git pull
+</code></pre></div></div>
+<p>Si besoin:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git fetch --all
+git reset --hard origin/gh-pages
+</code></pre></div></div>
+<p>Ensuite, faire ses modifications sur <code class="language-plaintext highlighter-rouge">main</code> et les pusher simplement. Ensuite, simplement changer de branche et copier coller la nouvelle version du répertoire <code class="language-plaintext highlighter-rouge">_site</code> dans la branche local <code class="language-plaintext highlighter-rouge">gh-pages</code>. Puis pusher sur <code class="language-plaintext highlighter-rouge">origin gh-pages</code>.
+De cette manière, on s’assure de toujours être synchronisé entre les branches locales et distantes.</p>
+
+<p><strong>Attention à bien conserver ce fichier d’aide !</strong></p>
+
+<h2 id="liens-utiles">Liens utiles</h2>
+
+<ul>
+  <li>https://www.w3.org/wiki/CSS/Properties/color/keywords</li>
+  <li>https://aksakalli.github.io/jekyll-doc-theme/docs/font-awesome/</li>
+  <li>https://github.com/github/pages-gem/issues/752</li>
+  <li>https://jekyllrb.com/docs/installation/ubuntu/</li>
+</ul>
 
         
       </section>
@@ -545,7 +575,7 @@ $ git subtree push --prefix _site origin gh-pages
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2023 Lucas Einig. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2024 Lucas Einig. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
